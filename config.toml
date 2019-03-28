@@ -1,0 +1,35 @@
+baseURL = "https://microcosm.dev"
+defaultContentLanguage = "en"
+disqusShortname = "microcosm"
+enableEmoji = true
+enableRobotsTXT = true
+googleAnalytics = ""
+languageCode = "en-us"
+pygmentsCodeFences = true
+pygmentsStyle = "native"
+pygmentsUseClasses =  true
+theme = "simplicity"
+title = "Microcosm - Opinionated Python Microservices"
+[author]
+  homepageText = "microcosm"
+  name = "microcosm"
+[imaging]
+  anchor = "smart"
+  resampleFilter = "box"
+  quality = 75
+[outputs]
+  home = ["HTML"]
+  page = ["HTML"]
+  section = ["HTML", "RSS"]
+  taxonomy = ["HTML", "RSS"]
+  taxonomyTerm = ["HTML"]
+[params]
+  adsenseClient = ''
+  adsenseSlot = ''
+  description = "Opinionated Python Microservices"
+  licence = "[Some Rights Reserved](http://creativecommons.org/licenses/by-sa/4.0/)."
+  displayPostLanguage = true
+[permalinks]
+  posts = "/:year/:month/:day/:slug/"
+[pygmentsOptions]
+  linenos = false
